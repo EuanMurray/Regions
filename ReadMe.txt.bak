@@ -1,0 +1,43 @@
+Region Finder
+
+I was not too sure if Countries and Regions were the same thing. I assumed in this case that they were. Region codes = Country code.
+
+
+
+
+Region Generator
+This is a tool which creates N regions.
+Will also generate M phone numbers
+
+Region Code Criteria:
+	First two digits = 00
+	Can be any length
+	Random
+	Unique
+	
+Phone Number Criteria
+	Start with region code
+	Unique
+
+
+
+SQL Tables
+
+Regions
+	RegionCode
+	RegionName
+PhoneNumbers
+	PhoneNumber
+	
+
+
+
+Region Finder API
+
+Controller with endpoint
+	HttpGet("DetectCountryFor")]
+	IActionResult DetectCountryFor([FromQuery]string phone)
+		
+		
+Service
+	Algorithm which finds Region from phone number
