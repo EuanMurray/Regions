@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xs+ZuUPjtqQ330SYs/7R1NMhQm6IylCX3vSHxQR0iezF2Nwv0jOGyzIYDRXaX0S2EHVqlYnp4a3R36GVdecWZA==",
+  "dgSpecHash": "iFLCAZMgzSRnvLIN1QpwGJM3DBmVyID7F0ovJq54NRURB1snDqZxyG1vkcgY9Lt4GFVb8TiqMqjYskll+R3opA==",
   "success": true,
   "projectFilePath": "C:\\Repos\\Regions\\RegionsAPI\\RegionsAPI\\RegionsAPI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\euanmurray\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\euanmurray\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\euanmurray\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\euanmurray\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

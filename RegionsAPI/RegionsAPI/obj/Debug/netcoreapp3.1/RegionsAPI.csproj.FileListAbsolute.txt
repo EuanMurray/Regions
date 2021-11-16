@@ -12,9 +12,8 @@ C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\RegionsAPI.Assemb
 C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\RegionsAPI.csproj.CoreCompileInputs.cache
 C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\RegionsAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\staticwebassets\RegionsAPI.StaticWebAssets.Manifest.cache
-C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\staticwebassets\RegionsAPI.StaticWebAssets.xml
-C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\RegionsAPI.styles.css
 C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\RegionsAPI.RazorTargetAssemblyInfo.cache
 C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\RegionsAPI.dll
 C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\RegionsAPI.pdb
 C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\RegionsAPI.genruntimeconfig.cache
+C:\Repos\Regions\RegionsAPI\RegionsAPI\obj\Debug\netcoreapp3.1\RegionsAPI.GeneratedMSBuildEditorConfig.editorconfig

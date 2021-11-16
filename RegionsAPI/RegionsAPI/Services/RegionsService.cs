@@ -6,6 +6,11 @@
         {
             var region = "";
 
+            // Load all regions
+            // Cache regions
+
+            // Find region
+
             return region;
         }
     }

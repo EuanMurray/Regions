@@ -6,20 +6,20 @@ using System;
 namespace RegionsAPI.Controllers
 {
     [ApiController]
-    //[Route("[controller]")]
-    public class RegionsController : ControllerBase
+    [Route("[controller]/[action]")]
+    public class RegionsApiController : ControllerBase
     {
-        private readonly ILogger<RegionsController> _logger;
+        private readonly ILogger<RegionsApiController> _logger;
         private readonly IRegionsService _regionService;
 
-        public RegionsController(ILogger<RegionsController> logger, IRegionsService regionService)
+        public RegionsApiController(ILogger<RegionsApiController> logger, IRegionsService regionService)
         {
             _logger = logger;
             _regionService = regionService;
         }
 
-        [HttpGet("DetectCountryFor")]
-	    IActionResult DetectCountryFor([FromQuery] string phone)
+        [HttpGet]
+	    public IActionResult DetectCountryFor([FromQuery] string phone)
         {
             try
             {
