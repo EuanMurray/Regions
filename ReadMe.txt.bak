@@ -41,3 +41,13 @@ Controller with endpoint
 		
 Service
 	Algorithm which finds Region from phone number
+	
+	Retreieves Regions from DB
+	Cache
+	
+	
+	
+	
+	
+Tests
+

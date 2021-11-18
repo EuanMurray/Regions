@@ -1,8 +1,8 @@
 using NUnit.Framework;
 
-namespace Regions.Tests
+namespace Region.Tests.Controllers
 {
-    public class Tests
+    public class RegionsApiControllerTests
     {
         [SetUp]
         public void Setup()

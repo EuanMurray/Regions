@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegionsAPI", "RegionsAPI\RegionsAPI.csproj", "{7F791776-FD7A-4148-8E89-B5E2EFE35682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regions.Tests", "Regions.Tests\Regions.Tests.csproj", "{5189D3F7-BEA3-4960-95DD-0AEDDF7DA983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Region.Tests", "Regions.Tests\Region.Tests.csproj", "{5189D3F7-BEA3-4960-95DD-0AEDDF7DA983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regions.Data", "Regions.Data\Regions.Data.csproj", "{B85D3D94-7334-4C8F-8F3B-C9AC1029FAF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Region.Data", "Regions.Data\Region.Data.csproj", "{B85D3D94-7334-4C8F-8F3B-C9AC1029FAF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -18,15 +18,15 @@ namespace RegionsAPI.Controllers
             _regionService = regionService;
         }
 
-        [HttpGet]
-	    public IActionResult DetectCountryFor([FromQuery] string phone)
+        [HttpGet("{phoneNumber}")]
+	    public IActionResult DetectCountryFor(string phoneNumber)
         {
             try
             {
-                if (string.IsNullOrEmpty(phone)) return BadRequest();
+                if (string.IsNullOrEmpty(phoneNumber)) return BadRequest();
 
-                _logger.LogTrace($"Searching Regions. Phone: {phone}");
-                var region = _regionService.FindRegion(phone);
+                _logger.LogTrace($"Searching Regions. Phone: {phoneNumber}");
+                var region = _regionService.FindRegion(phoneNumber);
 
                 if (string.IsNullOrEmpty(region)) return NotFound();
 
@@ -35,7 +35,7 @@ namespace RegionsAPI.Controllers
 
             } catch (Exception e)
             {
-                _logger.LogError($"error retrieving region. Phone: {phone} Exception: {e}");
+                _logger.LogError($"error retrieving region. Phone: {phoneNumber} Exception: {e}");
                 return BadRequest();
             }
         }
