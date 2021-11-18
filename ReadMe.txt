@@ -9,7 +9,7 @@ Region Generator
 This is a tool which creates N regions.
 Will also generate M phone numbers
 
-This is a stored procedure. This is stored in data folder
+This is a stored procedure. This is stored in data folder.
 
 Region Code Criteria:
 	First two digits = 00
@@ -58,4 +58,13 @@ Service
 	
 	
 Tests
+	I have tested a few random phone numbers.
+	I would also prefer to have tested the api call as well.
+	Todo move connection string to config file
 
+
+Review
+
+	The main challenges were due to the M1 chip on my mac. Several services didnt work. I was unable to host the database locally. I have therefore setup a database on azure. I downloaded this as a bacpac file and copied this to data folder.
+	The credentials for the server are in the config file. I would usually not include this (e.g source control) but I created the server exclusively for this test. I can open it up to your ip address if required.
+	The algorithm itself was a simple loop to compare the regions in DB to the start of the phone number. 

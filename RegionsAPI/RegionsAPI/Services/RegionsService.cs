@@ -50,7 +50,7 @@ namespace RegionsAPI.Services
                 }
             }
 
-            return regionName;
+            return regionName?.Trim();
         }
     }
 }
